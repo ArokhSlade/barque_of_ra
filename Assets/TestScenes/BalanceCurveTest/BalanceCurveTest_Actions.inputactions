@@ -1,0 +1,34 @@
+{
+    "name": "BalanceCurveTest_Actions",
+    "maps": [
+        {
+            "name": "Debug",
+            "id": "8827d6d5-6a2f-4a73-be4b-1d7f3a1892b0",
+            "actions": [
+                {
+                    "name": "DEBUG_logScaledDamageAction",
+                    "type": "Button",
+                    "id": "970378f1-a7ee-4e20-9c6b-a06d29ecae0a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "0d3e528f-7911-4c85-bfb0-c385201179b5",
+                    "path": "<Keyboard>/f9",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DEBUG_logScaledDamageAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5762685530720081799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7747036287165098382}
+  - component: {fileID: 4499736543509861909}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7747036287165098382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5762685530720081799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4499736543509861909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5762685530720081799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe9e7592753c3f4c807d764ec19ef3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingTitle: main_theme
+  boatSound: boat_moves
+  SoundEffects:
+  - clip: {fileID: 8300000, guid: 42ab0d581c2b8b24e8ac4c3ade29a2b4, type: 3}
+    source: {fileID: 0}
+    name: boat_moves
+    volume: 0.1
+    pitch: 1
+    playOnAwake: 0
+    loop: 1
+  - clip: {fileID: 8300000, guid: dbe545cb77455844e9908c8cc592a070, type: 3}
+    source: {fileID: 0}
+    name: boat_still
+    volume: 0.1
+    pitch: 1
+    playOnAwake: 0
+    loop: 1
+  - clip: {fileID: 8300000, guid: f23bcb8cde3fa42428bf4a75bd96a8f4, type: 3}
+    source: {fileID: 0}
+    name: boat_hit
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: ffd5a17b8bf71f64389bca872ccdf0a0, type: 3}
+    source: {fileID: 0}
+    name: soul_placed
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 2d79766589eabbf4a9dbd12df3be9854, type: 3}
+    source: {fileID: 0}
+    name: soul_pickup_denied
+    volume: 0.25
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: a7891f74bf832a54ba1991a0a2acb322, type: 3}
+    source: {fileID: 0}
+    name: soul_summoned
+    volume: 0.25
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 17f9e01bef09dc4499aebe021e3da496, type: 3}
+    source: {fileID: 0}
+    name: soul_died
+    volume: 0.5
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 5946ee50d9e89be44abbf513a8022286, type: 3}
+    source: {fileID: 0}
+    name: infantry_attacks
+    volume: 0.375
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 35b01f6da8748914e9a5512091cc6e12, type: 3}
+    source: {fileID: 0}
+    name: enemy_dog_attacks
+    volume: 0.468
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 787ccf9625bf3ca4681bed84a3ce20c3, type: 3}
+    source: {fileID: 0}
+    name: enemy_dog_dies
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 8d21253756c92d14cac553965f2b5b5a, type: 3}
+    source: {fileID: 0}
+    name: infrantry_dies
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 1beb3c5a9cede1640b7807961952ed99, type: 3}
+    source: {fileID: 0}
+    name: infrantry_takes_damage
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 1beb3c5a9cede1640b7807961952ed99, type: 3}
+    source: {fileID: 0}
+    name: infrantry_takes_damage
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 1beb3c5a9cede1640b7807961952ed99, type: 3}
+    source: {fileID: 0}
+    name: infrantry_takes_damage
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 267ed035ec1cfcd42a729309441522fc, type: 3}
+    source: {fileID: 0}
+    name: battle_won
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: fe34129baa243c54f9824aef7a47ccd6, type: 3}
+    source: {fileID: 0}
+    name: kanope_collected
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 31c2a5a1cecc7394b84ddd2920a3a6da, type: 3}
+    source: {fileID: 0}
+    name: enemy_bird_attacks
+    volume: 0.5
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  - clip: {fileID: 8300000, guid: 5346217f2907cab41bb1541d3f55ceff, type: 3}
+    source: {fileID: 0}
+    name: enemy_bird_dies
+    volume: 0.5
+    pitch: 1
+    playOnAwake: 0
+    loop: 0
+  BackgroundMusic:
+  - clip: {fileID: 8300000, guid: c08292d551d3ea44c85a317ace4b99a7, type: 3}
+    source: {fileID: 0}
+    name: main_theme
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 1
+  - clip: {fileID: 8300000, guid: 2b8dbc9ab395308449d69d1a5a62fee8, type: 3}
+    source: {fileID: 0}
+    name: sailing_theme
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 1
+  - clip: {fileID: 8300000, guid: 03476e39dda074f4d913122ac30ba148, type: 3}
+    source: {fileID: 0}
+    name: battle_theme
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 1
+  - clip: {fileID: 8300000, guid: 73f8faf9955c1e348843a1e4dd504461, type: 3}
+    source: {fileID: 0}
+    name: boss_battle_theme
+    volume: 1
+    pitch: 1
+    playOnAwake: 0
+    loop: 1
+  pauseTime: 0.5
+  masterChannel: {fileID: 24300002, guid: 9c8579135bfe0b7499b2d633cf0eabd3, type: 2}
+  sfxChannel: {fileID: -7290152771175518384, guid: 9c8579135bfe0b7499b2d633cf0eabd3, type: 2}
+  musicChannel: {fileID: 4552578941988523447, guid: 9c8579135bfe0b7499b2d633cf0eabd3, type: 2}

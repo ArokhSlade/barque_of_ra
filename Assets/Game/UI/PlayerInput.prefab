@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7975265802997858777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3873909582968874355}
+  - component: {fileID: 3996172501993913240}
+  - component: {fileID: 6808087036269306902}
+  - component: {fileID: 2964410620655294023}
+  - component: {fileID: 6595892599316953260}
+  - component: {fileID: 996051030487403625}
+  m_Layer: 0
+  m_Name: PlayerInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3873909582968874355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975265802997858777}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3996172501993913240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975265802997858777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cb7bb6fa55a87147a2bcd4463a8d0de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6808087036269306902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975265802997858777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a0275d116d05724ca380ec65ca91efb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2964410620655294023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975265802997858777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1df6540b2d896a4c948db7b1df51ccb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6595892599316953260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975265802997858777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427a5f2b6e294b64ea15425be076f0a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &996051030487403625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7975265802997858777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c6fa958f1cab14e9032d8365e102ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  neutralState: {fileID: 2964410620655294023}
+  draggingSoulState: {fileID: 6808087036269306902}
+  draggingGuardianState: {fileID: 3996172501993913240}
+  selectingUnitState: {fileID: 6595892599316953260}
+  highlighterPrefab: {fileID: 6095531783356738453, guid: 274a10efc12c70d4da9e3e93e3c4ef78, type: 3}
+  barque: {fileID: 0}
+  unitSelectUI: {fileID: 0}
+  positiveClickActionRef: {fileID: -3324826735661355035, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  negativeClickActionRef: {fileID: -2747608213815179146, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  pointerPositionActionRef: {fileID: 7076083919778747509, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  pauseMenuActionRef: {fileID: 426287508991902240, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  soulsLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  slotsLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  guardiansLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  enemiesLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  highlightablesLayer:
+    serializedVersion: 2
+    m_Bits: 145
+  soulDummyPrefab: {fileID: 6689448815248825455, guid: 7e3194fe7234eb9488af8851c98f2d0b, type: 3}
+  dummyFloatOffset: {x: 0, y: 4, z: 0}
+  highlighterVFXOffsetDuringMove: {x: 0, y: 2.5, z: 0}
+  unitsCatalog: {fileID: 0}
+  UnitSummoned:
+    m_PersistentCalls:
+      m_Calls: []
+  pauseMenu: {fileID: 0}
