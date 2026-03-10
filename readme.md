@@ -13,7 +13,7 @@ Any monster that makes it past the guards will trade itself for a soul on the bo
 Cleverly choosing and relocating these units on predefined slots is how players protect the Barque of Ra.   
 
 ## Recap
-| | | | | | |
+| | | | | |
 | :----: | :----: | :----: | :----: | :----: | 
 | **Programming Main Tasks** | Menus | Controls | HUD | Scene Transitions | 
 | **Programming Support** | Combat | Units | Tutorial | Music System |
